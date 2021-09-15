@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.button-primary{
+  background-color: #f0c040;
+}
+/*Form*/
+.bigform{
+  padding-top: 0rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+.bigform-container{
+  display:flex;
+  flex-direction: column;
+  width:32rem;
+  height:45rem;
+  padding:2rem;
+  border:.1rem #c0c0c0 solid;
+  border-radius: .5rem;
+  list-style-type:none;
+  background-color: snow;
+}
+
+.form{
+  padding-top: 6rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+.form-container{
+  display:flex;
+  flex-direction: column;
+  width:32rem;
+  height:32rem;
+  padding:2rem;
+  border:.1rem #c0c0c0 solid;
+  border-radius: .5rem;
+  list-style-type:none;
+  background-color: snow;
+}
+
+.button-secondary{
+  background-color: snow;
+}
+
+.fa-stack[data-count]:after{
+  position:absolute;
+  right:0%;
+  top:1%;
+  content: attr(data-count);
+  font-size:10px;
+  padding:.6em;
+  border-radius:999px;
+  line-height:.75em;
+  color: white;
+  background:rgba(255,0,0,.85);
+  text-align:center;
+  min-width:2em;
+  font-weight:bold;
+}
